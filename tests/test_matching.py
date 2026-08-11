@@ -36,7 +36,7 @@ def test_title_score_handles_normalized_titles():
 
 
 def test_artist_aliases_match_cyrillic_and_latin_names():
-    assert artist_match_score(["Max Korzh"], [{"name": "Макс Корж"}]) == 1.0
+    assert artist_match_score(["zamay"], [{"name": "замай"}]) == 1.0
 
 
 def test_classify_match_thresholds():
