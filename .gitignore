@@ -1,0 +1,30 @@
+# Secrets and authentication
+.env
+.env.*
+!.env.example
+.spotify_cache
+browser.json
+oauth.json
+
+# Generated matching data / personal playlist metadata
+matches_cache*.json
+transfer_report*.csv
+save/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Tooling / IDE
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
