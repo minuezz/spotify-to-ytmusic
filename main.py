@@ -28,9 +28,7 @@ RECHECK_REVIEW = True
 RECHECK_GOOD = False
 
 DEBUG_TRACKS = {
-    # ("Уходящая натура", "Zamay"),
     # ("Винтаж", "Zamay"),
-    # ("Абориген", "Zamay"),
 }
 
 SEARCH_LIMIT = 5
@@ -41,40 +39,14 @@ BATCH_SIZE = 50
 # ARTISTS' ALIASES
 # =========================
 ARTIST_ALIASES = {
-    "max korzh": ["макс корж"],
-    "макс корж": ["max korzh"],
-
     "zveri": ["звери"],
     "звери": ["zveri"],
 
     "neschastny sluchai": ["несчастный случай"],
     "несчастный случай": ["neschastny sluchai"],
 
-    "semyon slepakov": ["семен слепаков", "семён слепаков"],
-    "семен слепаков": ["semyon slepakov", "семён слепаков"],
-    "семён слепаков": ["semyon slepakov", "семен слепаков"],
-
-    "neuromonakh feofan": ["нейромонах феофан"],
-    "нейромонах феофан": ["neuromonakh feofan"],
-
     "slava kpss": ["слава кпсс", "гнойный"],
     "слава кпсс": ["slava kpss", "гнойный"],
-
-    "vremya i steklo": ["время и стекло"],
-    "время и стекло": ["vremya i steklo"],
-
-    "gradusy": ["градусы", 'группа "градусы"'],
-    "градусы": ["gradusy", 'группа "градусы"'],
-    'группа "градусы"': ["gradusy", "градусы"],
-
-    "luna": ["луна"],
-    "луна": ["luna"],
-
-    "vorovayki": ["воровайки"],
-    "воровайки": ["vorovayki"],
-
-    "professor lebedinskiy": ["профессор лебединский"],
-    "профессор лебединский": ["professor lebedinskiy"],
 
     "pasha technique": ["паша техник"],
     "паша техник": ["pasha technique"],
@@ -106,26 +78,11 @@ ARTIST_ALIASES = {
     "zemfira": ["земфира"],
     "земфира": ["zemfira"],
 
-    "leningrad": ["ленинград"],
-    "ленинград": ["leningrad"],
-
     "kino": ["кино"],
     "кино": ["kino"],
 
     "viktor tsoi": ["виктор цой"],
     "виктор цой": ["viktor tsoi"],
-
-    "poshlaya molly": ["пошлая молли"],
-    "пошлая молли": ["poshlaya molly"],
-
-    "hleb": ["хлеб"],
-    "хлеб": ["hleb"],
-
-    "monetochka": ["монеточка"],
-    "монеточка": ["monetochka"],
-
-    "nol": ["ноль"],
-    "ноль": ["nol"],
 
     "my": ["мы"],
     "мы": ["my"],

@@ -180,32 +180,3 @@ python -m pytest -q
 ```
 
 GitHub Actions runs the same checks on pushes and pull requests.
-
-## Project status
-
-The core transfer workflow is implemented and the repository is ready for iterative
-development. The most useful next steps are:
-
-1. add an interactive/manual override flow for `review` matches;
-2. distinguish API/network failures from genuine `not_found` results;
-3. make interrupted playlist creation resumable instead of creating a new playlist;
-4. split Spotify, YouTube Music and matching logic into separate modules;
-5. expand matching tests with difficult real-world cases such as remixes, covers,
-   reordered artists and alternate transliterations.
-
-## Security
-
-Never commit any of the following files:
-
-```text
-.env
-.spotify_cache
-browser.json
-oauth.json
-matches_cache*.json
-transfer_report*.csv
-```
-
-If any credential file has ever been committed to a public repository, revoke or
-rotate the affected credentials rather than merely deleting the file in a later
-commit.
