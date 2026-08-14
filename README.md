@@ -1,4 +1,4 @@
-# spotTrans
+# Spotify to YouTube Music playlist converter
 
 A small Python utility for transferring a Spotify playlist to YouTube Music.
 
